@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    text-align: right;
+    background-color: aliceblue;
+    padding: 15px;
+    transition: transform 0.3s ease-in;
+}
+
+.navbarGo{
+    transform: translate(0%, -100%);
+}
+
+.navbar li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar li a{
+    text-decoration: none;
+    text-align: center;
+    margin: 0px 8px;
+    font-size: 20px;
+    color: darkslategrey;
+}
+
+.hamburger .ham{
+    position: absolute;
+    align-content: flex-end;
+    cursor: pointer;
+    padding: 15px;
+}
